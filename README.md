@@ -97,8 +97,8 @@ The out-of-sample period is divided into 5 sequential, non-overlapping splits. E
 
 ```
 .
-├── app.py              # Streamlit dashboard (main entry point)
-├── requirements.txt    # Python dependencies
+├── dashboard_wti_brent.py              # Streamlit dashboard (main entry point)
+├── requirements.txt                    # Python dependencies
 └── README.md
 ```
 
@@ -108,14 +108,14 @@ The out-of-sample period is divided into 5 sequential, non-overlapping splits. E
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/brent-wti-pair-trading.git
-cd brent-wti-pair-trading
+git clone https://github.com/Pabliito13/Crude-Oil-Stat-Arb.git
+cd Crude-Oil-Stat-Arb
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Launch the dashboard
-streamlit run app.py
+streamlit run dashboard_wti_brent.py
 ```
 
 ---
